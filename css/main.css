@@ -1,0 +1,124 @@
+main {
+  background-image: url(/img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% 40%;
+  width: 100%;
+  margin: auto;
+  border: 3px solid rgba(211, 211, 211, 0.473);
+  padding-top: 4rem;
+  display: grid;
+  place-items: center;
+}
+.profile {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 3px 3px 9px gray;
+  position: relative;
+}
+.bg-success {
+  background-color: #07a663 !important;
+}
+.profile .box-left {
+  float: left;
+  padding: 3rem 0 0 3rem;
+}
+.profile_title {
+  padding-bottom: 3rem;
+}
+.profile_address {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.profile_address a {
+  text-decoration: none;
+  color: currentColor;
+  padding-bottom: 0.5rem;
+}
+.profile_social {
+  padding: 1rem 0 2rem;
+}
+.profile_social a {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.profile_social i {
+  font-size: 30px;
+}
+.profile_social a:nth-child(1) {
+  color: #3b5998;
+}
+.profile_social a:nth-child(2) {
+  color: black;
+}
+.profile_social a:nth-child(3) {
+  color: blue;
+}
+.profile_social a:nth-child(4) {
+  color: green;
+}
+.profile .box-right {
+  float: right;
+  width: 40%;
+  height: 500px;
+  overflow: hidden;
+}
+.profile .box-right img {
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+}
+.profile .box-right i {
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  right: 34%;
+  font-size: 60px;
+  color: #fff;
+  background-color: #3b5998;
+  line-height: 55px;
+  border-radius: 50%;
+}
+.clear {
+  clear: both;
+}
+@media (max-width: 1000px) {
+  .profile .box-right {
+    display: none;
+  }
+}
+
+/*seção de descrição*/
+.description {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 3px 3px 9px gray;
+}
+.description_content p {
+  font-size: 20px;
+}
+
+.description_buttons {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.description_buttons .btn {
+  padding: 5px 40px;
+  text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  .description_buttons .btn {
+    padding: 5px 10px;
+  }
+}
