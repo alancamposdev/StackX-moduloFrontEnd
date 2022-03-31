@@ -20,4 +20,4 @@ Página de exemplo
 
 ---
 
-projeto disponibilizado no github: https://github.com/alancamposdev
+projeto disponibilizado no github: https://alancamposdev.github.io/StackX-moduloFrontEnd/
